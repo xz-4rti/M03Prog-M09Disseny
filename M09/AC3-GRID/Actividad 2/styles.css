@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    color:rgb(111, 225, 111);
+    margin-bottom: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: 80px 240px 240px ;
+    grid-gap: 10px;
+    justify-content: center; 
+    grid-template-areas: 
+        ". a b ."
+        "c d e f"
+        "g h . ."; 
+}
+
+.item {
+    border: 2px solid rgb(111, 225, 111);
+    background-size: cover;
+    background-position: center;
+}
+
+.a {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/9/8/230c6a8238a3aee33a8104baf2649fd6/65089_full-retina.gif?2022-01-2818:54:16");
+    grid-area: a;
+}
+
+.b {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/3/9/3c2590792c4757ef5dcf5e7a235c1c8f/5793_full-retina.jpg?2016-03-3011:16:42");
+    grid-area: b;
+
+}
+
+.c {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/5/2/bcbfdb158e54cbcf902d28b279ca749c/87025_full-retina.jpg?2023-10-1113:16:21");
+    grid-area: c;
+
+}
+
+.d {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/9/0/e821667b36f63bafaaa2c63c1cccd39d/68509_full-retina.gif?2022-01-2820:43:12");
+    grid-area: d;
+
+}
+
+.e {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/3/8/55211ed04d20348de395d4c5479a9285/87383_full-retina.jpg?2023-11-0920:30:20");
+    grid-area: e;
+
+}
+
+.f {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/3/9/3c2590792c4757ef5dcf5e7a235c1c8f/5793_full-retina.jpg?2016-03-3011:16:42");
+    grid-area: f;
+
+}
+
+.g {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/3/6/8ffa3bf6576b81580c9ffd8af42a2bd3/5763_full-retina.jpg?2016-03-3011:13:55");
+    grid-area: g;
+}
+
+.h {
+    background-image: url("https://debutart-static-v1.s3.eu-west-1.amazonaws.com/projectitem/3/6/8ffa3bf6576b81580c9ffd8af42a2bd3/5763_full-retina.jpg?2016-03-3011:13:55");
+    grid-area: h;
+}

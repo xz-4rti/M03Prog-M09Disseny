@@ -1,0 +1,193 @@
+/* Global styles */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #942447;
+    font-size: 50px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 60vw;
+    height: 1vw;
+}
+
+.search-bar button {
+    padding: 6px 12px;
+    background-color: #942447;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Aligns the links to the right */
+    gap: 20px;
+    padding-top: 10px; /* Adds some space between search bar and links */
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.containor {
+    height: 87vh;
+    background-image: url("https://www.sofa-emporium.com/cdn/shop/files/Screenshot2024-06-13at14.33.39.png?v=1718285811&width=1445");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.smallContainor {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.664);
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.smallContainor h1 {
+    color: #942447;
+    font-size: 50px;
+}
+
+.smallContainor button {
+    width: 5vw;
+}
+
+.smallContainor h1, h3, button {
+    margin: 20px;
+}
+
+.containor2 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    background-image: url("https://media.architecturaldigest.com/photos/62e7d4ef4897a5fbb29037ec/master/w_1600%2Cc_limit/Japandi-JennaPeffley.jpeg");
+    background-size: cover;
+    width: 30vw;
+    height: 30vw;
+}
+
+.box2 {
+    background-image: url("https://www.mydomaine.com/thmb/3b9tEyy9erQDDxRN6bQEpYbyTLM=/2400x0/filters:no_upscale():strip_icc()/helfordln-1-7556f8609cb94144b0fca16114979ecb.jpg");
+    background-size: cover;
+    width: 30vw;
+    height: 30vw;
+}
+
+.box3 {
+    background-image: url("https://suntrust.com.ph/sites/default/files/contemporary.jpg");
+    background-size: cover;
+    width: 30vw;
+    height: 30vw;
+}
+
+.containor3 {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.gifts {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 90vw;
+}
+
+.gifts img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.containor4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.lifestyle{
+    background-image: url("https://www.ebohemians.com/wp-content/uploads/2024/02/Sustainable-home-decor.jpg");
+    background-size: cover;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.homedecore {
+    background-image: url("https://i.pinimg.com/736x/9c/5a/8f/9c5a8f189857a023a85e78842bc3346f.jpg");
+    background-size: cover;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+
+.lifestyleText {
+    display: flex;
+    flex-direction: column;
+    width: 47.4vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.664);
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.homedecoreText {
+    display: flex;
+    flex-direction: column;
+    width: 47.4vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.664);
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
