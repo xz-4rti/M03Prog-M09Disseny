@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (Aarati)\\Programacion\\Actividad\\AC2-Herencia\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC2-Herencia\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (Aarati)\\Programacion\\Actividad\\AC2-Herencia\\Program\\Program.csproj",
+      "projectPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC2-Herencia\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\aarat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (Aarati)\\Programacion\\Actividad\\AC2-Herencia\\Program\\obj\\",
+      "outputPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC2-Herencia\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aarat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
