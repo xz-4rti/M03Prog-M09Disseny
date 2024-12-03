@@ -1,8 +1,7 @@
 class Mago : Jugador{
 
     public int ContadorTurno { get; set; }
-    public Mago(string nombre) 
-    : base(nombre) 
+    public Mago(string nombre) : base(nombre) 
     {
         Vida = 8; // Vida inicial de mago
     }

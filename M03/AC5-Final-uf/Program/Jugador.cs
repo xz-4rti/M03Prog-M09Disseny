@@ -1,4 +1,4 @@
-class Jugador : Personaje {
+public class Jugador : Personaje {
 
     public int Puntohabilidad { get; set; }
     private Random random;
@@ -19,9 +19,9 @@ class Jugador : Personaje {
     }
 
     // Methodo para mejorar habilidad de jugador
-    public void MejorarHabilidad() 
+    public void MejorarHabilidad(int puntosGanado) 
     {
-        Puntohabilidad++;
+        Puntohabilidad += puntosGanado;
     }
 
     // Methodo para subir nivel del jugador
