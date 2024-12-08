@@ -34,17 +34,27 @@ public class Program
                 if(enemigos.Count == 0) break;
 
                 turn++;
+
+                // Turn information in blue
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine($" -- Turn: {turn} (Player) -- ");
                 Console.WriteLine($"Attacker level ({jugador.Nombre}): {jugador.Nivel}\n");
+                Console.ResetColor();
 
                 var enemigo = enemigos[new Random().Next(0, enemigos.Count)];
 
+                // Attack message in red
+                Console.ForegroundColor = ConsoleColor.Red;
                 Narrador.MostrarMensaje($"{jugador.Nombre} attacks {enemigo.Nombre}");
+                Console.ResetColor();
+
                 int attackEnemigo = jugador.Atacar();
                 enemigo.RecibirDanyo(attackEnemigo);
                 Narrador.MostrarMensaje($"{enemigo.Nombre} recives {attackEnemigo} attack point. Enemy life: {enemigo.Vida} \n");
                 
                 if(!enemigo.EstaVivo()){
+
+                    Console.ForegroundColor = ConsoleColor.Green;
 
                     Narrador.MostrarMensaje($"{enemigo.Nombre} has been defeated!\n");
                     enemigos.Remove(enemigo);
@@ -54,15 +64,21 @@ public class Program
 
                     jugador.MejorarHabilidad(CalcularPuntos(enemigo));
                     Narrador.MostrarMensaje($"{jugador.Nombre} has recived {CalcularPuntos(enemigo)} points.");
+
+                    Console.ResetColor();
                 }
 
                 // EVENTO RANDOM
                 if (new Random().Next(0, 100) < 20) // 20% de probabilidad de evento
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     RandomEvent(jugador);
+                    Console.ResetColor();
                 }
                 
-                Thread.Sleep(1000);
+                // Wait for user to press Enter before proceeding
+                Console.WriteLine("\nPress Enter to continue...");
+                Console.ReadLine();
                 Console.Clear();
 
             }
@@ -87,7 +103,9 @@ public class Program
                     jugadores.Remove(jugador);
                 }
 
-                Thread.Sleep(1000);
+                // Wait for user to press Enter before proceeding
+                Narrador.MostrarMensajePrincipio("\nPress Enter to continue...");
+                Console.ReadLine();
                 Console.Clear();
             }
         }
