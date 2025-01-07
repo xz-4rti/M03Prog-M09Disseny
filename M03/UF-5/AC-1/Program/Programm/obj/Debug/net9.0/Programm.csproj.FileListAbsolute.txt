@@ -1,0 +1,15 @@
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\bin\Debug\net9.0\Programm.exe
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\bin\Debug\net9.0\Programm.deps.json
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\bin\Debug\net9.0\Programm.runtimeconfig.json
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\bin\Debug\net9.0\Programm.dll
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\bin\Debug\net9.0\Programm.pdb
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.AssemblyInfoInputs.cache
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.AssemblyInfo.cs
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.csproj.CoreCompileInputs.cache
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.sourcelink.json
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.dll
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\refint\Programm.dll
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.pdb
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\Programm.genruntimeconfig.cache
+C:\Users\aarat\Desktop\2 DAM\M03Prog-M09Disseny\M03\UF-2\AC-1\Program\Programm\obj\Debug\net9.0\ref\Programm.dll
