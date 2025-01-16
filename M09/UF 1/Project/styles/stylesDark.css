@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('https://img.freepik.com/free-photo/retro-computer-desk-arrangement_23-2150118622.jpg?t=st=1734371715~exp=1734375315~hmac=a644379c98d22d6364ac2ad43c48171ec8f91eb1d5a6833bddedde6443ed48a2&w=996');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.title,
+.buttons {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    width: 35vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.title h1 {
+    color: black; /* Title text color */
+    font-size: 110px;
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 
+        -2px -2px 3px #fff, 
+        2px -2px 3px #fff, 
+        -2px 2px 3px #fff, 
+        2px 2px 3px #fff; /* White stroke with slight shadow */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    height: 40vh;
+}
+
+.buttonJuego {
+    width: 180px;
+    height: 50px;
+    background-color: #5B0202; /* Button color */
+    color: #000000; /* Text color */
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #fff, 
+        1px -1px 0 #fff, 
+        -1px 1px 0 #fff, 
+        1px 1px 0 #fff; /* White text stroke effect */
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonJuego:hover {
+    background-color: #A42424; /* Hover color */
+    transform: scale(1.05);
+}
+
+.buttonJuego:active {
+    transform: scale(0.95);
+    box-shadow: 3px 3px 8px #000;
+}
+
+.buttonInfo {
+    width: 300px;
+    height: 80px;
+    background-color: #1C3522; /* Button color */
+    color: #000000; /* Text color */
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #fff, 
+        1px -1px 0 #fff, 
+        -1px 1px 0 #fff, 
+        1px 1px 0 #fff; /* White text stroke effect */
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonInfo:hover {
+    background-color: #3D764A; /* Hover color */
+    transform: scale(1.05);
+}
+
+.buttonInfo:active {
+    transform: scale(0.95);
+    box-shadow: 3px 3px 8px #000;
+}
+
+.light {
+    width: 90px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.light:hover {
+    transform: scale(1.10);
+}
+
+.light:active {
+    transform: scale(0.95);
+}
