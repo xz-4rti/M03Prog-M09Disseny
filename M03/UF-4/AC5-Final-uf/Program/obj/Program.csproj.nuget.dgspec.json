@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC5-Final-uf\\Program\\Program.csproj": {}
+    "C:\\Users\\aarat\\OneDrive\\Desktop\\2daw for git\\M03Prog-M09Disseny\\M03\\UF-4\\AC5-Final-uf\\Program\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC5-Final-uf\\Program\\Program.csproj": {
+    "C:\\Users\\aarat\\OneDrive\\Desktop\\2daw for git\\M03Prog-M09Disseny\\M03\\UF-4\\AC5-Final-uf\\Program\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC5-Final-uf\\Program\\Program.csproj",
+        "projectUniqueName": "C:\\Users\\aarat\\OneDrive\\Desktop\\2daw for git\\M03Prog-M09Disseny\\M03\\UF-4\\AC5-Final-uf\\Program\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC5-Final-uf\\Program\\Program.csproj",
+        "projectPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2daw for git\\M03Prog-M09Disseny\\M03\\UF-4\\AC5-Final-uf\\Program\\Program.csproj",
         "packagesPath": "C:\\Users\\aarat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\AC5-Final-uf\\Program\\obj\\",
+        "outputPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2daw for git\\M03Prog-M09Disseny\\M03\\UF-4\\AC5-Final-uf\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aarat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
