@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music: Blue - Yung kai</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Jersey+10&family=Jersey+15&family=Jost:wght@300&family=Lilita+One&family=Platypi:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sedan:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- WAV, FLAC, OGG, OPUS -->
+    <div class="container">
+        <div class="left">🠔</div>
+        <div class="container-main">
+            <h1>REPRODUCTOR ORBITAL</h1>
+            <div class="title">
+                <h1>─୨ৎ─ OPUS - BLUE by Yung Kai ─୨ৎ─</h1>
+            </div>
+            <div class="album">
+                <img src="./image/blue.jpg" alt="blue">
+            </div>
+            <div>
+                <audio id="song" controls>
+                    <source src="./audio/yungkai-blue.opus">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div>
+                <button onclick="document.getElementById('song').play()"> Play</button>
+                <button onclick="document.getElementById('song').pause()"> Pause</button>
+                <button onclick="document.getElementById('song').volume+=0.1"> Volume +</button>
+                <button onclick="document.getElementById('song').volume-=0.1"> Volume -</button>
+                <button onclick="document.getElementById('song').currentTime+=5"> +5 Sec</button>
+                <button onclick="document.getElementById('song').currentTime-=5"> -5 Sec</button>
+                <button onclick="document.getElementById('song').playbackRate+=0.4"> Velocity +</button>
+                <button onclick="document.getElementById('song').playbackRate-=0.4"> Velocity -</button>
+                <button onclick="document.getElementById('song').muted=!document.getElementById('song').muted"> Mute/Unmute</button>
+            </div>
+            <div class="table">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Format</th>
+                            <th>Compression</th>
+                            <th>Audio Quality	</th>
+                            <th>File Size</th>
+                            <th>Best Use Case</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OPUS</td>
+                            <td>Lossy</td>
+                            <td>Excellent</td>
+                            <td>3.11 MB</td>
+                            <td>Streaming, voice calls, low-latency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="right">🠖</div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

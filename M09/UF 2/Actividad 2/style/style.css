@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/background.png");
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+    padding: 20px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push content to top and bottom */
+    align-items: center;
+    width: 80vw;
+    min-height: 100vh; /* Ensure it takes full height */
+    gap: 20px;
+}
+
+.table {
+    width: 50vw;
+    margin-top: auto; /* Push table to the bottom */
+    background-color: rgba(255, 255, 255, 0.5); /* More transparent background */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    height: 20vh;
+    border-collapse: collapse;
+    font-family: "Rubik", sans-serif;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(25, 10, 79, 0.1);
+}
+
+th {
+    background-color: rgba(25, 10, 79, 0.8); /* Semi-transparent header background */
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.3); /* More transparent cell background */
+    color: rgb(25, 10, 79);
+}
+
+tr:hover td {
+    background-color: rgba(25, 10, 79, 0.1); /* Semi-transparent hover effect */
+}
+
+.left, .right {
+    font-size: 60px;
+    color: rgb(25, 10, 79);
+    cursor: pointer;
+}
+
+.left:hover, .right:hover {
+    transform: scale(1.08);
+    filter: brightness(1.4);
+}
+
+.left:active, .right:active {
+    transform: scale(0.96);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(25, 10, 79);
+}
+
+.title h1 {
+    font-size: 25px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.album img {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+    width: 30vw;
+    height: 5.5vh;
+}
+
+button {
+    background-color: rgba(25, 10, 79, 0.438);
+    text-shadow: 2px 2px 10px rgba(25, 10, 79, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid rgba(157, 188, 220, 0.308);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(157, 188, 220, 0.7);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    transform: scale(0.96);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+    .title h1 {
+        font-size: 20px;
+    }
+    .album img {
+        height: 300px;
+    }
+    .left, .right {
+        font-size: 50px;
+    }
+    audio {
+        width: 40vw;
+    }
+    button {
+        font-size: 13px;
+    }
+
+    .table {
+        width: 60vh;
+    }
+    table {
+        font-size: 13px;
+        overflow: auto;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+    .title h1 {
+        font-size: 15px;
+    }
+    .album img {
+        height: 250px;
+    }
+    .left, .right {
+        font-size: 40px;
+    }
+    audio {
+        width: 50vw;
+        height: 4vh;
+    }
+    button {
+        font-size: 10px;
+    }
+    .table {
+        width: 55vh;
+    }
+    table {
+        font-size: 10px;
+        overflow: auto;
+        height: 5vh;
+    }
+}
+
