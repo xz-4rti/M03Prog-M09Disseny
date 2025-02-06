@@ -23,16 +23,17 @@
     <div class="container">
         <div class="left">🠔</div>
         <div class="container-main">
-            <h1>REPRODUCTOR ORBITAL</h1>
+            <h1><a href="index.html">🎧 HEAR THE DIFFERENCE 🎧</a></h1>
+            <p>Best(WAV) to worst Quality(MP3)</p>
             <div class="title">
-                <h1>─୨ৎ─ MP3 - BLUE by Yung Kai ─୨ৎ─</h1>
+                <h1>─୨ৎ─ WAV - BLUE by Yung Kai ─୨ৎ─</h1>
             </div>
             <div class="album">
                 <img src="./image/blue.jpg" alt="blue">
             </div>
             <div>
                 <audio id="song" controls>
-                    <source src="./audio/yungkai-blue.mp3">
+                    <source src="./audio/yungkai-blue.wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
@@ -45,7 +46,8 @@
                 <button onclick="document.getElementById('song').currentTime-=5"> -5 Sec</button>
                 <button onclick="document.getElementById('song').playbackRate+=0.4"> Velocity +</button>
                 <button onclick="document.getElementById('song').playbackRate-=0.4"> Velocity -</button>
-                <button onclick="document.getElementById('song').muted=!document.getElementById('song').muted"> Mute/Unmute</button>
+                <button onclick="document.getElementById('song').muted=!document.getElementById('song').muted">
+                    Mute/Unmute</button>
             </div>
             <div class="table">
                 <table border="1">
@@ -53,18 +55,21 @@
                         <tr>
                             <th>Format</th>
                             <th>Compression</th>
-                            <th>Audio Quality	</th>
+                            <th>Audio Quality</th>
                             <th>File Size</th>
                             <th>Best Use Case</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>MP3</td>
-                            <td>Lossy</td>
-                            <td>Good (depends on bitrate)</td>
-                            <td>4.15 MB</td>
-                            <td>Casual listening, sharing, streaming</td>
+                            <td>WAV</td>
+                            <td>Lossless</td>
+                            <td>
+                                - Best Quality<br>
+                                - Bit rate: 1411 kbps
+                            </td>
+                            <td>36 MB</td>
+                            <td>Professional editing, archiving</td>
                         </tr>
                     </tbody>
                 </table>
