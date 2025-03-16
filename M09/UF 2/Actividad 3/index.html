@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Idea</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">MULTIMEDIO <em>WEB</em></div>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">Imágen</a></li>
+                <li><a href="#section3">Audio</a></li>
+                <li><a href="#section4">Video</a></li>
+                <li><a href="#section5" class="btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <div class="content-main">
+            <div class="content">
+                <div>
+                    <h1>Explorando el Multimedio en la Web</h1>
+                </div>
+                <div>
+                    <p>Descubre cómo las imágenes, el audio y el video pueden transformar la experiencia digital.
+                        Aprende a
+                        integrar y optimizar contenido multimedia para crear sitios web interactivos y dinámicos.</p>
+                </div>
+                <div class="learn-more">
+                    <a href="https://www.w3schools.com/html/html_media.asp" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/image/main2.png" alt="Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <!-- Left Button -->
+        <button class="slider-button left" onclick="prevImage()">&#10094;</button>
+
+        <div class="slider-images">
+            <img src="/image/project1-1.png" alt="Illustration">
+            <img src="/image/project1-2.png" alt="Illustration">
+            <img src="/image/project1-3.png" alt="Illustration">
+        </div>
+
+        <!-- Right Button -->
+        <button class="slider-button right" onclick="nextImage()">&#10095;</button>
+
+        <div class="content">
+            <h1>Imágenes en la Web: Formatos y Optimización</h1>
+            <p>Explora cómo utilizar imágenes en la web de manera eficiente, desde formatos como JPEG, PNG y SVG hasta
+                técnicas de optimización para mejorar el rendimiento.</p>
+            <a href="https://www.w3schools.com/html/html5_svg.asp" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="container">
+            <h1>🎧 Integración de Audio: Sonido para una Web Interactiva 🎧</h1>
+            <div class="container-main">
+                <div class="container1">
+                    <div class="title">
+                        <h1>─୨ৎ─ WAV - BLUE by Yung Kai ─୨ৎ─</h1>
+                    </div>
+                    <div class="album">
+                        <img src="/image/blue.jpg" alt="blue">
+                    </div>
+                    <div>
+                        <audio id="song" controls>
+                            <source src="/audio/yungkai-blue.wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="title">
+                        <h1>─୨ৎ─ OPUSS - BLUE by Yung Kai ─୨ৎ─</h1>
+                    </div>
+                    <div class="album">
+                        <img src="/image/blue2.jpeg" alt="blue">
+                    </div>
+                    <div>
+                        <audio id="song" controls>
+                            <source src="/audio/yungkai-blue.opus">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="title">
+                        <h1>─୨ৎ─ MP3 - BLUE by Yung Kai ─୨ৎ─</h1>
+                    </div>
+                    <div class="album">
+                        <img src="/image/blue3.jpeg" alt="blue">
+                    </div>
+                    <div>
+                        <audio id="song" controls>
+                            <source src="/audio/yungkai-blue.mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.w3schools.com/html/html5_video.asp" class="btn">Learn More</a>
+    </section>
+
+    <section id="section4">
+        <div class="content">
+            <h1>Vídeo en la Web: Reproducción y Compatibilidad</h1>
+            <p>Descubre cómo integrar vídeos en la web, los formatos más comunes como MP4 y WebM, y técnicas para
+                garantizar compatibilidad y optimización en distintos navegadores y dispositivos.</p>
+            <a href="https://www.w3schools.com/html/html5_video.asp" class="btn">Learn More</a>
+        </div>
+        <div class="video">
+            <video width="320" height="240" controls controls poster="/image/thumbnail.jpeg">
+                <source src="/lety.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="section5">
+        <div class="contact-container">
+            <h1>Contacto</h1>
+            <p>Puedes ponerte en contacto conmigo a través de:</p>
+            <ul>
+                <li><strong>Email:</strong> aarati.gurung@estudiant.fjaverians.com</li>
+                <li><strong>Ubicación:</strong> Barcelona, España</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Multimedia Web. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
