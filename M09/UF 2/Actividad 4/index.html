@@ -45,23 +45,88 @@
     </section>
 
     <section id="section2">
-        <!-- Left Button -->
-        <button class="slider-button left" onclick="prevImage()">&#10094;</button>
+        <div class="section2-container">
+            <div class="svg-gallery">
+                <div class="svg-card">
+                    <div class="svg-wrapper">
+                        <!-- SVG 1 -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-image">
+                            <rect x="0" y="0" width="100" height="100" fill="#7acee5" />
+                            <rect x="0" y="80" width="100" height="20" fill="#8cd65b" />
+                            <circle cx="10" cy="10" r="8" fill="yellow" />
+                            <polygon points="20,50 50,15 80,50" fill="#b46714" />
+                            <rect x="20" y="50" width="60" height="40" fill="#ec9a6f" />
+                            <rect x="43" y="70" width="16" height="20" fill="#3b271a" />
+                            <rect x="25" y="55" width="12" height="12" fill="#ffffff" />
+                            <rect x="63" y="55" width="12" height="12" fill="#ffffff" />
+                        </svg>
+                        <div class="svg-caption">Casa</div>
+                    </div>
+                </div>
 
-        <div class="slider-images">
-            <img src="./image/project1-1.png" alt="Illustration">
-            <img src="./image/project1-2.png" alt="Illustration">
-            <img src="./image/project1-3.png" alt="Illustration">
-        </div>
+                <div class="svg-card">
+                    <div class="svg-wrapper">
+                        <!-- SVG 2 -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-image">
+                            <rect x="36" y="33" width="45" height="18" fill="#bc1313" />
+                            <rect x="20" y="50" width="75" height="25" fill="#bc1313" />
+                            <rect x="40" y="36" width="20" height="10" fill="#a8f0ef" />
+                            <rect x="63" y="36" width="15" height="10" fill="#a8f0ef" />
+                            <rect x="20" y="57" width="5" height="5" fill="#fdff71" />
+                            <rect x="90" y="57" width="5" height="5" fill="#fdff71" />
+                            <circle cx="80" cy="75" r="8" fill="#58534a" stroke="black" stroke-width="6" />
+                            <circle cx="35" cy="75" r="8" fill="#58534a" stroke="black" stroke-width="6" />
+                        </svg>
+                        <div class="svg-caption">Automóvil</div>
+                    </div>
+                </div>
 
-        <!-- Right Button -->
-        <button class="slider-button right" onclick="nextImage()">&#10095;</button>
+                <div class="svg-card">
+                    <div class="svg-wrapper">
+                        <!-- SVG 3 -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-image">
+                            <rect x="31" y="20" rx="2" width="25" height="20" fill="#9ca49f" />
+                            <circle cx="38" cy="30" r="2" fill="white" stroke="#76f76c" stroke-width="1" />
+                            <circle cx="49" cy="30" r="2" fill="white" stroke="#76f76c" stroke-width="1" />
+                            <circle cx="43.5" cy="8" r="2" fill="red" />
+                            <rect x="43" y="10" width="1" height="10" fill="#9ca49f" />
+                            <rect x="33.5" y="45" width="20" height="25" fill="#9ca49f" />
+                            <circle cx="43.5" cy="50" r="2" fill="red" />
+                            <circle cx="43.5" cy="56" r="2" fill="#76f76c" />
+                            <circle cx="43.5" cy="62" r="2" fill="blue" />
+                            <rect x="23" y="48" width="11" height="4" fill="#9ca49f" />
+                            <rect x="53" y="48" width="11" height="4" fill="#9ca49f" />
+                        </svg>
+                        <div class="svg-caption">Semáforo</div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="content">
-            <h1>Imágenes en la Web: Formatos y Optimización</h1>
-            <p>Explora cómo utilizar imágenes en la web de manera eficiente, desde formatos como JPEG, PNG y SVG hasta
-                técnicas de optimización para mejorar el rendimiento.</p>
-            <a href="https://www.w3schools.com/html/html5_svg.asp" class="btn">Learn More</a>
+            <div class="content-wrapper">
+                <div class="content">
+                    <h1>Imágenes en la Web: Formatos y Optimización</h1>
+                    <p>Explora cómo utilizar imágenes en la web de manera eficiente, desde formatos como JPEG, PNG y SVG
+                        hasta
+                        técnicas de optimización para mejorar el rendimiento. Los SVG (Scalable Vector Graphics) son
+                        ideales para
+                        gráficos, iconos y animaciones que necesitan mantener su calidad en cualquier tamaño.</p>
+                    <div class="svg-benefits">
+                        <div class="benefit">
+                            <h3>Escalabilidad</h3>
+                            <p>Los SVG mantienen su calidad a cualquier tamaño</p>
+                        </div>
+                        <div class="benefit">
+                            <h3>Interactividad</h3>
+                            <p>Pueden animarse y responder a eventos</p>
+                        </div>
+                        <div class="benefit">
+                            <h3>Tamaño reducido</h3>
+                            <p>Archivos ligeros para una carga rápida</p>
+                        </div>
+                    </div>
+                    <a href="https://www.w3schools.com/html/html5_svg.asp" class="btn">Learn More</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -113,6 +178,7 @@
                 </div>
             </div>
             <a href="https://www.w3schools.com/html/html5_video.asp" class="btn">Learn More</a>
+        </div>
     </section>
 
     <section id="section4">
@@ -135,7 +201,8 @@
             <h1>Contacto</h1>
             <p>Puedes ponerte en contacto conmigo a través de:</p>
             <ul>
-                <li><strong>Email:</strong> aarati.gurung@estudiant.fjaverians.com</li>
+                <li><strong>Email:</strong> aarati.gurungestudiant.fjaverianas.com</a>
+                </li>
                 <li><strong>Ubicación:</strong> Barcelona, España</li>
             </ul>
         </div>
@@ -152,6 +219,7 @@
             </div>
         </div>
     </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
