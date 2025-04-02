@@ -38,7 +38,6 @@ namespace Game
                 PrintStatus();
                 Console.WriteLine("\nPress any key to spin...");
                 Console.ReadKey(true);
-
                 await Spin();
                 spinsLeft--;
             }
@@ -102,14 +101,19 @@ namespace Game
                 var numbers = JsonConvert.DeserializeObject<int[]>(response);
 
                 return numbers.Select(n =>
-                    n switch
+                {
+                    switch (n)
                     {
-                        1 => "R2D2",
-                        2 => "C3PO",
-                        3 => "BB8",
-                        4 => "R2D2", // Map 4 to R2D2 since we only have 3 models
-                        _ => throw new Exception("Invalid number from API")
-                    }).ToArray();
+                        case 1:
+                            return "R2D2";
+                        case 2:
+                            return "C3PO";
+                        case 3:
+                            return "BB8";
+                        default:
+                            throw new Exception("Invalid number from API");
+                    }
+                }).ToArray();
             }
             catch
             {
@@ -203,6 +207,7 @@ namespace Game
                 Console.WriteLine($"- {model} robots: {productionManager.CountByModel(model)} " +
                                 $"(Total points: {productionManager.PointsByModel(model)})");
             }
+            Console.WriteLine($"- Combined Total Points: {totalPoints}");
         }
 
         private void SaveResults()

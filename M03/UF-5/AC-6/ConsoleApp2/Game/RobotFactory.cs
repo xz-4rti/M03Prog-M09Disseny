@@ -5,13 +5,17 @@ namespace Game
     {
         public static Models.Robot CreateRobot(string model)
         {
-            return model switch
+            switch(model)
             {
-                "R2D2" => new Models.R2D2(),
-                "C3PO" => new Models.C3PO(),
-                "BB8" => new Models.BB8(),
-                _ => throw new ArgumentException("Invalid robot model")
-            };
+                case "R2D2":
+                    return new Models.R2D2();
+                case "C3PO":
+                    return new Models.C3PO();
+                case "BB8":
+                    return new Models.BB8();
+                default:
+                    throw new ArgumentException("Invalid robot model");
+            }
         }
     }
 }
