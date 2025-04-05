@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (git)\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (git)\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (git)\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (git)\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\aarat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aarat\\OneDrive\\Desktop\\2 DAW (git)\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\obj\\",
+        "outputPath": "C:\\Users\\aarat\\Desktop\\2 DAM\\M03Prog-M09Disseny\\M03\\UF-5\\AC-6\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aarat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

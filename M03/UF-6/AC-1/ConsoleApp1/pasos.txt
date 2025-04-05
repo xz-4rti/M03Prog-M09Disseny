@@ -1,0 +1,4 @@
+1- Instalar el paquete SQLite
+    - dotnet add package System.Data.SQLite
+
+2- 
